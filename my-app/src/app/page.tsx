@@ -76,7 +76,7 @@ export default function BugTracker() {
             </button>
           </form>
           <p className="text-center text-sm text-blue-600 mt-4">
-            Don't have an account? <a href="#" className="underline">Sign up</a>
+            Don&apos;t have an account? <a href="#" className="underline">Sign up</a>
           </p>
         </div>
       </div>
@@ -167,7 +167,7 @@ export default function BugTracker() {
         </div>
         {/* Status Summary */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 mb-6">
-          {statusSummary.map((s, i) => (
+          {statusSummary.map((s) => (
             <div key={s.label} className={`rounded-lg py-3 text-center bg-${s.color}`}>
               <span className={`inline-block px-3 py-1 text-xs font-semibold rounded-full bg-${s.color} text-${s.text} mb-1`}>
                 {s.label}
