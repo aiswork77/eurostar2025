@@ -78,7 +78,7 @@ export default function Home() {
               EuroSTAR 2025 Workshop:
             </p>
             <p className="text-green-700 dark:text-green-300">
-              "Conquering Code Everest: Let AI Be Your Sherpa"
+              &quot;Conquering Code Everest: Let AI Be Your Sherpa&quot;
             </p>
           </div>
 
